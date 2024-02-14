@@ -1,0 +1,13 @@
+.vs/
+.vscode/
+.idea/
+
+bin/
+obj/
+
+*.user
+
+# You should figure out a better way to ignore these.
+# Should they even be ignored?
+EasyXnb.*
+Microsoft.Xna.Framework.*
