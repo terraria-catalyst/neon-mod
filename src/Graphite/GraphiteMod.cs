@@ -2,4 +2,4 @@ using Terraria.ModLoader;
 
 namespace Graphite;
 
-public sealed class Graphite : Mod;
+public sealed class GraphiteMod : Mod;
