@@ -1,11 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
+  
   <Import Project="../../catalyst/Mod.Build.targets"/>
   
   <PropertyGroup>
-    <AssemblyName>Graphite</AssemblyName>
     <TargetFramework>net6.0</TargetFramework>
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
+    <RootNamespace>TeamCatalyst.Graphite</RootNamespace>
+
+    <AssemblyPublicizerPaths>$(AssemblyPublicizerPaths);$(MSBuildThisFileDirectory)graphite.publicizer.js</AssemblyPublicizerPaths>
   </PropertyGroup>
+  
 </Project>
