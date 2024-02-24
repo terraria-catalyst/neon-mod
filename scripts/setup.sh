@@ -1,3 +1,4 @@
+#!/bin/sh
 echo "Step 1: Generating Symbolic Links..."
 if ! node ../generate-symlinks.js; then
     echo "Error: Failed to generate symbolic links."
@@ -16,7 +17,7 @@ if ! dotnet restore ../catalyst/src/TeamCatalyst.Catalyst.Build; then
     exit 1
 fi
 
-if ! msbuild ../catalyst/src/TeamCatalyst.Catalyst.Build; then
+if ! dotnet build ../catalyst/src/TeamCatalyst.Catalyst.Build -c Release; then
     echo "Error: Failed to build Catalyst Tools."
     exit 1
 fi
