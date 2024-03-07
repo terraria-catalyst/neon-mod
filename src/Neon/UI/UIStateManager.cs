@@ -5,7 +5,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.UI;
 
-namespace Graphite.UI;
+namespace Neon.UI;
 
 [Autoload(Side = ModSide.Client)]
 public sealed class UIStateManager : ModSystem

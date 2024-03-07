@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphite", "Graphite\Graphite.csproj", "{BFE8DBC9-5576-4D52-9CF5-3D744CA0FADD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neon", "Neon\Neon.csproj", "{BFE8DBC9-5576-4D52-9CF5-3D744CA0FADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

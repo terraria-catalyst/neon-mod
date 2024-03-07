@@ -1,6 +1,6 @@
 using Terraria.UI;
 
-namespace Graphite.UI;
+namespace Neon.UI;
 
 /*
  * Ideally, this hotbar will be located at the right-middle position of the screen,

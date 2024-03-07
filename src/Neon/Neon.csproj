@@ -6,9 +6,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
-    <RootNamespace>TeamCatalyst.Graphite</RootNamespace>
+    <RootNamespace>TeamCatalyst.Neon</RootNamespace>
 
-    <AssemblyPublicizerPaths>$(AssemblyPublicizerPaths);$(MSBuildThisFileDirectory)graphite.publicizer.js</AssemblyPublicizerPaths>
+    <AssemblyPublicizerPaths>$(AssemblyPublicizerPaths);$(MSBuildThisFileDirectory)neon.publicizer.js</AssemblyPublicizerPaths>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <Folder Include="Localization\" />
+  </ItemGroup>
   
 </Project>
