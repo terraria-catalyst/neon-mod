@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  
+
   <Import Project="../../catalyst/Mod.Build.targets"/>
   
   <PropertyGroup>
@@ -12,7 +12,7 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <Folder Include="Localization\" />
+    <Folder Include="Assets\Textures\UI\" />
   </ItemGroup>
-  
+
 </Project>
